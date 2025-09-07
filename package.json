@@ -4,9 +4,9 @@
   "private": true,
   "description": "Enterprise Industrial Tubing Management System with 3D Visualization, Scanner Integration, and AI Processing",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
